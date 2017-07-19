@@ -28,3 +28,9 @@ MNI_DIR         /usr/local/freesurfer/mni
 nii.gz（上传的）
 mgz(算出的数据图片),csv(算出的数据表格)  
 mni
+
+
+性能与并发：
+The number of cores is roughly the number of studies you can process simultaneously. Notice that each process will take 20-24 hrs.
+核心数大致等于并发数
+Keep in mind that you need to use the fastest memory in order to achieve maximum benefit from multi-core architecture.
