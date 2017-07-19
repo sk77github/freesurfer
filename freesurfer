@@ -39,3 +39,8 @@ The number of cores is roughly the number of studies you can process simultaneou
 Note that to take benefit of a multi-core environment you need to use a SMP kernel in your OS.
 
 Keep in mind that you need to use the fastest memory in order to achieve maximum benefit from multi-core architecture.
+
+
+基准数据：
+http://surfer.nmr.mgh.harvard.edu/fswiki/recon-all#Step-wiseDirectives-1
+https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllRunTimes
