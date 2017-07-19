@@ -30,6 +30,10 @@ mgz(算出的数据图片),csv(算出的数据表格)
 mni
 
 
+配置要求：
+https://surfer.nmr.mgh.harvard.edu/fswiki/SystemRequirements
+
+
 性能与并发：
 FreeSurfer run its process in a non-parallel environment, 
 so you won't have benefit from a dual/quad/hex core machine for a single case analysis
@@ -45,6 +49,8 @@ Note that to take benefit of a multi-core environment you need to use a SMP kern
  The volume and surface data files produced by Freesurfer for a typical subject (assuming two structural MRI scans of source data)
  consume about 370MB of disk space. 
  一次处理产生370M数据。
+ Freesurfer is not disk intensive, so SSD is not a benefit. Budget 400MB per subject for storage.
+ SSD没必要
 
 Keep in mind that you need to use the fastest memory in order to achieve maximum benefit from multi-core architecture.
 
