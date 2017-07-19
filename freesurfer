@@ -33,14 +33,18 @@ mni
 性能与并发：
 FreeSurfer run its process in a non-parallel environment, 
 so you won't have benefit from a dual/quad/hex core machine for a single case analysis
-freesurfer单核跑，开多进程提高并发 
+一次处理freesurfer单核跑，开多进程提高并发 
 The number of cores is roughly the number of studies you can process simultaneously. Notice that each process will take 20-24 hrs.
 核心数大致等于并发数
 Note that to take benefit of a multi-core environment you need to use a SMP kernel in your OS.
 
  to purchase 4GB per subject, that is, if you would like to process four subjects at once, 
  your machine must have four cores and 16GB of memory. 
- 一个进程4G内存
+ 一个处理一个进程4G内存
+ 
+ The volume and surface data files produced by Freesurfer for a typical subject (assuming two structural MRI scans of source data)
+ consume about 370MB of disk space. 
+ 一次处理产生370M数据。
 
 Keep in mind that you need to use the fastest memory in order to achieve maximum benefit from multi-core architecture.
 
