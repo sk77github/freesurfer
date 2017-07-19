@@ -38,6 +38,10 @@ The number of cores is roughly the number of studies you can process simultaneou
 核心数大致等于并发数
 Note that to take benefit of a multi-core environment you need to use a SMP kernel in your OS.
 
+ to purchase 4GB per subject, that is, if you would like to process four subjects at once, 
+ your machine must have four cores and 16GB of memory. 
+ 一个进程4G内存
+
 Keep in mind that you need to use the fastest memory in order to achieve maximum benefit from multi-core architecture.
 
 
