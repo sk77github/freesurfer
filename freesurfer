@@ -31,6 +31,11 @@ mni
 
 
 性能与并发：
+FreeSurfer run its process in a non-parallel environment, 
+so you won't have benefit from a dual/quad/hex core machine for a single case analysis
+freesurfer单核跑，开多进程提高并发 
 The number of cores is roughly the number of studies you can process simultaneously. Notice that each process will take 20-24 hrs.
 核心数大致等于并发数
+Note that to take benefit of a multi-core environment you need to use a SMP kernel in your OS.
+
 Keep in mind that you need to use the fastest memory in order to achieve maximum benefit from multi-core architecture.
