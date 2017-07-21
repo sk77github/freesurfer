@@ -58,3 +58,10 @@ Keep in mind that you need to use the fastest memory in order to achieve maximum
 基准数据：
 http://surfer.nmr.mgh.harvard.edu/fswiki/recon-all#Step-wiseDirectives-1
 https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllRunTimes
+
+
+
+常用命令：
+recon-all  -openmp 2（使用几核加速） -i 源文件路径 -s 目标目录 -all -notal-check >log.txt 2>&1
+
+可以使用openmp 加速的子进程 mri_ca_register，mris_register，mris_sphere 
