@@ -6,6 +6,7 @@ $> source $FREESURFER_HOME/SetUpFreeSurfer.sh
 copy license
 （export SUBJECTS_DIR=<path to subject data>
   test your installation：）
+如果用openmp跑需要 yum install libgomp
 
 
 
